@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Dresseur de pekémon</h2>
+    <p>les champs marqués d'une <sup>*</sup>sont obligatoires.</p>
+    <fieldset>
+      <legend>Nouveau dresseur</legend>
+      <label>Nom<sup>*</sup></label>
+      <input type="text" name="nom" id="nom" />
+      <div>
+        <label for="description">Description</label>
+        <textarea name="description"></textarea>
+      </div>
+      <div>
+        <label>Équipe</label>
+      </div>
+      <input type="radio" name="rouge" />
+      <label for="rouge">Rouge</label>
+      <div>
+        <input type="radio" name="jaune" />
+        <label for="jaune">Jaune</label>
+      </div>
+      <div>
+        <input type="radio" name="bleu" />
+        <label for="bleu">Bleu</label>
+      </div>
+      <label for="anniversaire">Anniversaire<sup>*</sup></label>
+      <input type="date" />
+      <div>
+        <input type="submit" value="Envoyer" />
+      </div>
+    </fieldset>
+  </body>
+</html>
